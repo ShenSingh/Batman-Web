@@ -12,7 +12,7 @@
 .MainName a{
     text-decoration: none;
 }
-.JokerImg{ 
+.JokerImg,.LexImg,.CirceImg,.TheBatmanWhoLaughsImg,.SupermanImg,.OwlmanImg{ 
     border-radius: 10px;
     margin-left: 48px;
     width: 220px;
@@ -41,19 +41,14 @@
     margin: 0 auto;
     margin-top: 50px;
 }
-.F1Name{
+.F1Name,.F2Name,.F3Name,.F4Name,.F5Name,.F6Name{
     font-family: 'Black Ops One';
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
 } 
 
-.LexImg{
-    border-radius: 10px;
-    width: 220px;
-    height: 280px;
-    margin-left: 48px;
-}
+
 .fight2{
     background-color:rgba(27, 27, 27, 0.13);
     width: 800px;
@@ -76,18 +71,6 @@
     position: absolute;
     margin-top: 50px;
     font-family: 'Caveat', cursive;
-}
-.F2Name{
-    font-family: 'Black Ops One', cursive;
-    color:rgb(250, 19, 19);
-    text-align: center;
-    font-size: 30px;
-}
-.SupermanImg{
-    width: 220px;
-    height: 280px;
-    border-radius: 10px;
-    margin-left: 48px;
 }
 .fight3{
     background-color:rgba(27, 27, 27, 0.13);
@@ -112,18 +95,6 @@
     margin-top: 50px;
     font-family: 'Caveat', cursive;
 }
-.F3Name{
-    font-family: 'Black Ops One', cursive;
-    color:rgb(250, 19, 19);
-    text-align: center;
-    font-size: 30px;
-}
-.TheBatmanWhoLaughsImg{
-    width: 220px;
-    height: 280px;
-    border-radius: 10px;
-    margin-left: 48px;
-}
 .fight4{
     background-color:rgba(27, 27, 27, 0.13);
     width: 800px;
@@ -147,18 +118,6 @@
     margin-top: 50px;
     font-family: 'Caveat', cursive;
 }
-.F4Name{
-    font-family: 'Black Ops One', cursive;
-    color:rgb(250, 19, 19);
-    text-align: center;
-    font-size: 30px;
-}
-.CirceImg{
-    width: 220px;
-    height: 280px;
-    border-radius: 10px;
-    margin-left: 48px;
-}
 .fight5{
     background-color:rgba(27, 27, 27, 0.13);
     width: 800px;
@@ -181,19 +140,6 @@
     margin-top: 50px;
     font-family: 'Caveat';
 }
-.F5Name{
-    font-family: 'Black Ops One';
-    color:rgb(250, 19, 19);
-    text-align: center;
-    font-size: 30px;
-}
-.OwlmanImg{
-    width: 220px;
-    height: 280px;
-    border-radius: 10px;
-    margin-left: 48px;
-    margin-top: 25px;
-}
 .fight6{
     background-color:rgba(27, 27, 27, 0.13);
     width: 800px;
@@ -215,12 +161,6 @@
     position: absolute;
     margin-top: 50px;
     font-family: 'Caveat';
-}
-.F6Name{
-    font-family: 'Black Ops One';
-    color:rgb(250, 19, 19);
-    text-align: center;
-    font-size: 30px;
 }
 @media (max-width:1077px){
     .JokerImg {
@@ -344,119 +284,19 @@
     }
 }
 @media (max-width:425px){
-    .JokerImg {
+    .CirceImg , .OwlmanImg, .TheBatmanWhoLaughsImg, .SupermanImg,.LexImg,.JokerImg{
         width: 120px;
         height: 180px;
         display: block;
         margin: 0 auto;
     }
-    .JokerP{
+    .CirceP, .OwlmanP, .TheBatmanWhoLaughsP, .SupermanP,.LexP,.JokerP{
         font-size: 14px;
         width: 220px;
         margin-left: 50px;
         margin-top: 250px;
     }
-    .fight1{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-}
-@media (max-width:425px){
-    .LexImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .LexP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight2{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-}
-@media (max-width:425px){
-    .SupermanImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .SupermanP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight3{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-}
-@media (max-width:425px){
-    .TheBatmanWhoLaughsImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .TheBatmanWhoLaughsP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight4{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-}
-@media (max-width:425px){
-    .CirceImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .CirceP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight5{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-}
-@media (max-width:425px){
-    .OwlmanImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .OwlmanP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight6{
+    .fight5,.fight6, .fight4, .fight3,.fight2.fight1{
         width: 330px;
         height: 500px;
         padding: 5px;
