@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./life.component.css']
 })
 export class LifeComponent {
-
+// 
 }

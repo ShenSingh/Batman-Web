@@ -5,7 +5,7 @@
     font-size: 50px;
     color: white;
     text-align: center;
-    font-family: 'Skranji', cursive;
+    font-family: 'Skranji';
 }
 ul{
     margin-left: 20px; 
@@ -303,7 +303,7 @@ ul h2:hover{
         display: none; 
         font-family: 'Caveat', cursive;
         font-size: 15px;
-        margin-left: 190px;
+        margin-left: 270px;
     }
     ul h2{
         font-family: 'Creepster', cursive;
@@ -425,7 +425,7 @@ ul h2:hover{
             animation: anime 3.5s linear infinite;    
         }           
 }
-@media (max-width:450px){
+@media (max-width:425px){
     .hovring ul p{
         top: 0;
         left: 0;
