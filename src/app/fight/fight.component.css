@@ -12,7 +12,7 @@
 .MainName a{
     text-decoration: none;
 }
-.JokerImg{  /*Start joker///////////////////*/
+.JokerImg{ 
     border-radius: 10px;
     margin-left: 48px;
     width: 220px;
@@ -46,9 +46,9 @@
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
-} /*end joker//////////////////////////////////////////*/
+} 
 
-.LexImg{ /*lex start////////////////////*/
+.LexImg{
     border-radius: 10px;
     width: 220px;
     height: 280px;
@@ -82,7 +82,7 @@
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
-}/*lex star////////////////////*/
+}
 .SupermanImg{
     width: 220px;
     height: 280px;
@@ -118,7 +118,7 @@
     text-align: center;
     font-size: 30px;
 }
-.TheBatmanWhoLaughsImg{ /*TBWL start//////////////////*/
+.TheBatmanWhoLaughsImg{
     width: 220px;
     height: 280px;
     border-radius: 10px;

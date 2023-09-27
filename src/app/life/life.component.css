@@ -24,7 +24,7 @@ ul{
     font-family: 'Caveat', cursive;
     font-size: 20px;
 }
-.hovring ul .I1{
+.hovring ul .I1,.hovring ul .I2,.hovring ul .I3,.hovring ul .I4,.hovring ul .I5,.hovring ul .I6,.hovring ul .I7{
     width: 600px;
     margin-top: 50px;
     margin-left: 350px;
@@ -34,7 +34,7 @@ ul{
     display: none;
     animation: anime 3.5s linear infinite;    
 }
-.hovring ul .I2{
+/* .hovring ul .I2{
     position: absolute;
     width: 600px;
     margin-top: 50px;
@@ -43,61 +43,7 @@ ul{
     transform: rotate(0deg);
     display: none;
     animation: anime 3.5s linear infinite;    
-}
-.hovring ul .I3{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
-    position: absolute;
-    top: 0;
-    transform: rotate(0deg);
-    display: none;
-    animation: anime 3.5s linear infinite;    
-}
-.hovring ul .I4{
-    position: absolute;
-    margin-left: 400px;
-    top: 0;
-    transform: rotate(0deg);
-    display: none;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
-    animation: anime 3.5s linear infinite;    
-}
-.hovring ul .I5{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
-    position: absolute;
-    margin-left: 400px;
-    top: 0;
-    transform: rotate(0deg);
-    display: none;
-    animation: anime 3.5s linear infinite;    
-}
-.hovring ul .I6{
-    position: absolute;
-    margin-left: 400px;
-    top: 0;
-    transform: rotate(0deg);
-    display: none;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
-    animation: anime 3.5s linear infinite;    
-}
-.hovring ul .I7{
-    position: absolute;
-    margin-left: 400px;
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
-    top: 0;
-    transform: rotate(0deg);
-    display: none;
-    animation: anime 3.5s linear infinite;    
-}
+} */
 .hovring ul .I8{
     top: 0;
     position: absolute;
