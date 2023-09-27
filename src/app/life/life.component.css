@@ -191,119 +191,122 @@ ul h2:hover{
         transition: 0.6s;
         display: block;
     }
-        .hovring ul .I1{
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            margin-top: 40px;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I2{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I3{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I4{
-            width: 500px;
-            margin-top: 40px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I5{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I6{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I7{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I8{
-            margin-top: 40px;
-            width: 500px;
-            top: 0;
-            position: absolute;
-            margin-left: 250px;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I9{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }
-        .hovring ul .I10{
-            margin-top: 40px;
-            width: 500px;
-            position: absolute;
-            margin-left: 250px;
-            top: 0;
-            transform: rotate(0deg);
-            display: none;
-            animation: anime 3.5s linear infinite;    
-        }           
+    .hovring ul .I1{
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        margin-top: 40px;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I2{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I3{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I4{
+        width: 500px;
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I5{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I6{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I7{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I8{
+        margin-top: 40px;
+        width: 500px;
+        top: 0;
+        position: absolute;
+        margin-left: 250px;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I9{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }
+    .hovring ul .I10{
+        margin-top: 40px;
+        width: 500px;
+        position: absolute;
+        margin-left: 250px;
+        top: 0;
+        transform: rotate(0deg);
+        display: none;
+        animation: anime 3.5s linear infinite;    
+    }           
 }
 @media (max-width:768px){
     .hovring ul p{
         top: 0;
         left: 0;
-        position: absolute;
-        width: 350px;
-        margin-top: 115px;
+        position: relative;
+        width: 250px;
+        margin-top: 23px;
         transition: 0.6s;
         display: none; 
+        margin-left: 80px;
         font-family: 'Caveat', cursive;
-        font-size: 15px;
-        margin-left: 270px;
+        font-size: 13px;
+        background-color:rgba(0, 0, 0, 0.13);
+        border-radius: 20px;
+        box-shadow: -10px 10px 90px black;
     }
     ul h2{
         font-family: 'Creepster', cursive;
@@ -317,7 +320,7 @@ ul h2:hover{
         margin-top: 50px;
     }
     .hovring ul li:hover img{
-        display: block;
+        display: none;
         transition: 0.6s;
     }
     .hovring ul li:hover p{
@@ -426,42 +429,6 @@ ul h2:hover{
         }           
 }
 @media (max-width:425px){
-    .hovring ul p{
-        top: 0;
-        left: 0;
-        position: relative;
-        width: 300px;
-        margin-top: 5px;
-        transition: 0.6s;
-        display: none; 
-        font-family: 'Caveat', cursive;
-        font-size: 16px;
-        margin-left: 20px;
-        background-color:rgba(0, 0, 0, 0.13);
-        border-radius: 20px;
-        box-shadow: -10px 10px 90px black;
-    }
-    ul h2{
-        font-family: 'Creepster', cursive;
-        font-size: 15px;
-        padding-bottom: 5px;
-        width: 350px;
-        left: 0;
-    }
-    ul{
-        text-align: left;
-        margin-top: 50px;
-    }
-    .hovring ul li:hover img{
-        display: none;
-        transition: 0.6s;
-    }
-    .hovring ul li:hover p{
-        transition: 0.6s;
-        display: block;
-    }
-}
-@media (max-width:390px){
     .hovring ul p{
         top: 0;
         left: 0;

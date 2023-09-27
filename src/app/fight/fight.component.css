@@ -48,28 +48,8 @@
     font-size: 30px;
 } /*end joker//////////////////////////////////////////*/
 
-/* /////////////////////////////////////////425px/////////////////////////// */
-/* @media (max-width:425px){
-    .JokerImg {
-        width: 120px;
-        height: 180px;
-        display: block;
-        margin: 0 auto;
-    }
-    .JokerP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight1{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
-} */
 .LexImg{ /*lex start////////////////////*/
+    border-radius: 10px;
     width: 220px;
     height: 280px;
     margin-left: 48px;
@@ -103,29 +83,6 @@
     text-align: center;
     font-size: 30px;
 }/*lex star////////////////////*/
-@media (max-width:450px){
-    .LexImg{
-        margin-left: 100px;
-        width: 120px;
-        height: 180px;
-    }
-    .LexP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight2 {
-        width: 330px;
-        height: 500px;
-        position: relative;
-        padding: 5px;
-        margin: 70px auto;
-        margin: 70px auto;
-        box-shadow: -10px 10px 90px black;
-        border-radius: 10px;     
-    }
-}
 .SupermanImg{
     width: 220px;
     height: 280px;
@@ -160,26 +117,6 @@
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
-}
-@media (max-width:450px){
-    .SupermanImg{
-        margin-left: 100px;
-        width: 120px;
-        height: 180px;
-    }
-    .SupermanP{
-        
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight3 {
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
 }
 .TheBatmanWhoLaughsImg{ /*TBWL start//////////////////*/
     width: 220px;
@@ -216,34 +153,6 @@
     text-align: center;
     font-size: 30px;
 }
-@media (max-width:450px){
-    .TheBatmanWhoLaughsImg{
-        margin-left: 100px;
-        width: 120px;
-        height: 180px;
-    }
-    .TheBatmanWhoLaughsP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight4 {
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-        box-shadow: -10px 10px 90px black;
-        border-radius: 10px;            
-    }
-    .F4Name{
-        font-family: 'Black Ops One', cursive;
-        color:rgb(250, 19, 19);
-        text-align: center;
-        font-size: 30px;
-        width: 300px;
-    }   
-}
 .CirceImg{
     width: 220px;
     height: 280px;
@@ -277,27 +186,6 @@
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
-}
-@media (max-width:450px){
-    .CirceImg{
-        margin-left: 100px;
-        width: 120px;
-        height: 180px;
-    }
-    .CirceP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight5 {
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-        box-shadow: -10px 10px 90px black;
-        border-radius: 10px;    
-    }
 }
 .OwlmanImg{
     width: 220px;
@@ -333,25 +221,6 @@
     color:rgb(250, 19, 19);
     text-align: center;
     font-size: 30px;
-}
-@media (max-width:450px){
-    .OwlmanImg{
-        margin-left: 100px;
-        width: 120px;
-        height: 180px;
-    }
-    .OwlmanP{
-        font-size: 14px;
-        width: 220px;
-        margin-left: 50px;
-        margin-top: 250px;
-    }
-    .fight6{
-        width: 330px;
-        height: 500px;
-        padding: 5px;
-        margin: 70px auto;
-    }
 }
 @media (max-width:1077px){
     .JokerImg {
@@ -474,7 +343,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .JokerImg {
         width: 120px;
         height: 180px;
@@ -494,7 +363,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .LexImg {
         width: 120px;
         height: 180px;
@@ -514,7 +383,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .SupermanImg {
         width: 120px;
         height: 180px;
@@ -534,7 +403,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .TheBatmanWhoLaughsImg {
         width: 120px;
         height: 180px;
@@ -554,7 +423,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .CirceImg {
         width: 120px;
         height: 180px;
@@ -574,7 +443,7 @@
         margin: 70px auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .OwlmanImg {
         width: 120px;
         height: 180px;
