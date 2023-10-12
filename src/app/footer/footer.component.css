@@ -27,7 +27,12 @@
 .contact-info p {
     margin: 5px 0;
 }
-.copyright p {
+.copyright .CompenyName{
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 14px;   
+}
+.copyright a .Shen{
+    text-decoration: none;
+    color: #fff;
+    text-decoration-line: none;
 }
